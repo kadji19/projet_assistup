@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin: 0%;
+}
+
+body{
+    background: #F8FAFB;
+}
+
+.banner{
+    background-color: #191E62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    margin: 70px  ;
+}
+
+.banner .row{
+    align-items: center;
+}
+
+.banner .column_text{
+    height: 50vh;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.column_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.title_banner{
+font-family: 'Poppins', sans-serif;
+font-size: 60px;
+font-weight: bolder;
+color: rgb(255, 255, 255);
+
+}
+
+.button .btn{
+    padding: 15px;
+    background: transparent;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.image_banner{
+    width: 320px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.title_container{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #333333;
+    }
+
+    .compte{
+        background-color: #05F6A7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .row_compte{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        margin: 70px  ;
+    }
+
+    .banner .column_text{
+        height: 40vh;
+    }
+    
+    .column_text_compte{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .title_compte{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    .button .btn_compte{
+        padding: 15px;
+        width: 20vh;
+        background: #191E62;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        
+    }
+
+@media screen and (min-width: 1400px) {
+    .banner{
+        padding: 0px 60px 0px 60px;
+    }
+    
+    .column_text{
+        font-size: 25px;
+    }
+    
+    .title_banner{
+    font-size: 70px;  
+    }
+    
+    .button .btn{
+        font-size: 20px;
+    }
+    
+    .image_banner{
+        width: 420px;
+    }
+   
+    .container{
+        padding: 0px 100px 0px 100px;
+    }
+    .image_container{
+        width: 520px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1000px) {
+    .banner{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row_compte{
+        margin: 70px 0px 70px 0px;
+    }
+
+    .column_text_compte{
+        width: 60%;
+        height: 40vh;
+    }
+    
+    .title_compte{
+    font-size: 50px;
+    
+    }
+
+    
+
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    
+    .row{
+        margin: 70px 10px 70px 10px;
+    }
+
+    .title_banner{
+        font-size: 50px;  
+    }
+
+    .container{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .title_container{
+        font-size: 30px;
+        }
+
+    .image_container{
+            width: 320px;
+    }
+
+    .column_text_compte{
+        width: 65%;
+        height: 40vh;
+    }
+    
+    .title_compte{
+    font-size: 40px;
+    
+    }
+
+  }
+  
+
+  @media screen and (max-width: 650px) {
+
+    .title_banner{
+        font-size: 40px;  
+        }
+        
+        .image_banner{
+            width: 220px;
+        }
+
+        .container{
+            padding: 0px 10px 0px 10px;
+        }
+
+        .title_container{
+            font-size: 25px;
+            }
+
+        .image_container{
+            width: 220px;
+        }
+
+        .title_compte{
+        font-size: 35px;
+        
+        }
+    
+       
+  }
+  
+  @media screen and (max-width: 530px) {
+
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .column_text{
+        width: 80%;
+    }
+
+    .title_banner{
+        font-size: 40px;  
+        }
+        
+        .image_banner{
+            width: 220px;
+        }
+
+        .column_text_compte{
+            width: 75%;
+            height: 40vh;
+        }
+        
+        .title_compte{
+        font-size: 30px;
+        
+        }
+       
+  }
+  
